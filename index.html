@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando médias.</title>
+    <style>
+        button{
+            height: 75px;
+            width: 95px;
+            border-radius: 15px;
+        }
+        button:hover{
+            background-color: rgb(183, 255, 183);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando a média de 3 alunos.</h1>
+    <form action="calculandomediacomarrays.php" method="post">
+        <!--Inputando informações do primeiro aluno 1/3-->
+        <!--nome:-->
+        <label for="nome1">Nome do primeiro aluno: </label><input type="text" name="nome1" id="nome1" placeholder="Nome do primeiro aluno." tabindex="1"> <br>
+
+        <!--nota1:-->
+        <label for="nota1-1">Nota do primeiro aluno: </label><input type="text" name="nota1-1" id="nota1-1" placeholder="Primeira nota." tabindex="2"><br>
+
+        <!--nota2:-->
+        <label for="nota2-1">Nota do primeiro aluno: </label><input type="text" name="nota2-1" id="nota2-1" placeholder="Segunda nota." tabindex="3"> <br><br>
+
+        <!--Inputando informações do segundo aluno 2/3-->
+        <!--nome:-->
+        <label for="nome2">Nome do segundo aluno: </label><input type="text" name="nome2" id="nome2" placeholder="Nome do segundo aluno." tabindex="4"> <br>
+
+        <!--nota1:-->
+        <label for="nota1-2">Nota do segundo aluno: </label><input type="text" name="nota1-2" id="nota1-2" placeholder="Primeira nota." tabindex="5"><br>
+
+        <!--nota2:-->
+        <label for="nota2-2">Nota do segundo aluno: </label><input type="text" name="nota2-2" id="nota2-2" placeholder="Segunda nota." tabindex="6"><br><br>
+
+        <!--Inputando informações do terceiro aluno 3/3-->
+        <!--nome:-->
+        <label for="nome3">Nome do terceiro aluno: </label><input type="text" name="nome3" id="nome3" placeholder="Nome do terceiro aluno." tabindex="7"><br>
+
+        <!--nota1:-->
+        <label for="nota1-3">Nota do segundo aluno: </label><input type="text" name="nota1-3" id="nota1-3" placeholder="Primeira nota." tabindex="8"><br>
+
+        <!--nota2:-->
+        <label for="nota2-3">Nota do segundo aluno: </label><input type="text" name="nota2-3" id="nota2-3" placeholder="Segunda nota." tabindex="9"><br><br>
+
+        <button type="submit">Calcular tudo</button>
+
+    </form>
+</body>
+</html>
